@@ -1,0 +1,126 @@
+------------------------ right image as reference --------------------
+
+
+-23.4526,-10.8265,-0.474968
+T-R: after optimization: error = 4830.97
+-26,0.28,0.28
+B-R: after optimization: error = 19620.3
+
+0 -  0.00, 242721 - 131.00, 225240 - 104.33,
+243528 - 101.25, 0 -  0.00, 263404 - 90.31,
+226061 - 113.06, 263448 - 126.50, 0 -  0.00,
+
+Image 0 has luminance 130.996887, image 1 has luminance 101.249931
+Image 1, 'images/home/top.tif', is adjusted by a factor of 1.293797. // image 1 got brighter
+Image 0 has luminance 104.332451, image 2 has luminance 113.064308
+Image 2, 'images/home/bottom.tif', is adjusted by a factor of 0.922771. // image 2 got darker
+T-R: after adjustment: error = 4208.81
+B-R: after adjustment: error = 20357.3
+
+
+
+------------------------ top image as reference -----------------------
+
+
+
+-23.4526,-10.8265,-0.474968
+T-R: after optimization: error = 4830.97
+-26,0.28,0.28
+B-R: after optimization: error = 19620.3
+
+0 -  0.00, 242721 - 131.00, 225240 - 104.33,
+243528 - 101.25, 0 -  0.00, 263404 - 90.31,
+226061 - 113.06, 263448 - 126.50, 0 -  0.00,
+
+Image 1 has luminance 101.249931, image 0 has luminance 130.996887
+Image 0, 'images/home/right.tif', is adjusted by a factor of 0.772919.
+Image 1 has luminance 90.308182, image 2 has luminance 126.497505
+Image 2, 'images/home/bottom.tif', is adjusted by a factor of 0.713913.
+T-R: after adjustment: error = 2791.79
+B-R: after adjustment: error = 12152.8
+
+
+-------------------------- bottom image as reference --------------------
+
+-23.4526,-10.8265,-0.474968
+T-R: after optimization: error = 4830.97
+-26,0.28,0.28
+B-R: after optimization: error = 19620.3
+
+0 -  0.00, 242721 - 131.00, 225240 - 104.33,
+243528 - 101.25, 0 -  0.00, 263404 - 90.31,
+226061 - 113.06, 263448 - 126.50, 0 -  0.00,
+
+Image 2 has luminance 113.064308, image 0 has luminance 104.332451
+Image 0, 'images/home/right.tif', is adjusted by a factor of 1.083693.
+Image 2 has luminance 126.497505, image 1 has luminance 90.308182
+Image 1, 'images/home/top.tif', is adjusted by a factor of 1.400731.
+T-R: after adjustment: error = 4561.12
+B-R: after adjustment: error = 23430.7
+
+
+------------------------------------
+244image width x height = 1024, 768, hfov = 67.9
+ITERATION = 1
+fret = 14071.188477
+ITERATION = 2
+fret = 13963.914063
+ITERATION = 3
+fret = 13955.516602
+ITERATION = 4
+fret = 13955.516602
+23.1608,-0.0159122,-3.04956
+image #1: after optimization: error = 13955.5
+ITERATION = 1
+fret = 996.211792
+ITERATION = 2
+fret = 991.346252
+ITERATION = 3
+fret = 991.296448
+35.328,-0.0364167,0.0111174
+image #2: after optimization: error = 991.296
+
+0 -  0.00, 486077 - 122.11, 123810 - 155.28,
+485976 - 81.91, 0 -  0.00, 364717 - 116.93,
+123810 - 94.84, 364718 - 109.44, 0 -  0.00,
+
+Image 0 has luminance 122.109856, image 1 has luminance 81.906891
+Image 1, 'images/rec/mid.tif', is adjusted by a factor of 1.490837.
+Image 1 has luminance 116.934662, image 2 has luminance 109.443192
+Image 2, 'images/rec/right.tif', is adjusted by a factor of 1.592886.
+ITERATION = 1
+fret = 10379.025391
+ITERATION = 2
+fret = 10017.000000
+ITERATION = 3
+fret = 9471.718750
+ITERATION = 4
+fret = 9284.795898
+ITERATION = 5
+fret = 7266.292480
+ITERATION = 6
+fret = 6156.267090
+ITERATION = 7
+fret = 5781.723145
+ITERATION = 8
+fret = 5707.050781
+ITERATION = 9
+fret = 5707.050781
+33.8337,-0.065496,-0.216072
+image #1: after optimization: error = 5707.05
+ITERATION = 1
+fret = 1276.297607
+ITERATION = 2
+fret = 1272.210938
+ITERATION = 3
+fret = 1270.827148
+ITERATION = 4
+fret = 1270.479858
+ITERATION = 5
+fret = 1270.421875
+35.331,-0.0369733,0.0240396
+image #2: after optimization: error = 1270.42
+image #1: after optimization: error = 5707.05
+image #2: after optimization: error = 1270.42
+
+
